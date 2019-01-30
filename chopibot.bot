@@ -1,0 +1,60 @@
+{
+  "name": "chopibot",
+  "padlock": "Rr80VLvA2DtgonY2vLxhCA==!K6wdRlwl7q614+b2ZvhGKBMgA6lXAEspL7BewR7NsOGrXmgOpby1I/IBJq14nntt",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "c3ed29c4-075e-4b74-b002-9d2e64a94047",
+      "subscriptionId": "f4f352fe-e2c4-4dbf-b69c-304250eacbf3",
+      "resourceGroup": "ChopiBot",
+      "serviceName": "chopibot",
+      "type": "abs",
+      "name": "chopibot",
+      "id": "1"
+    },
+    {
+      "connectionString": "4jFgRfGQEhzAJQ0uCVhQ7g==!l57n4r8m9AyxkY/r/f22Hn39xVz0iW+jwjuEJmJBtSfwW0T79rJViuEK2XJSLMjnEHXM+Se/6ZfV3GaGujgjifNb3/wtybS1yeMJ1/pDBFfHN4BixbTO7fnflYyK9kKk/7vr0gxBaOUT8DsqIcT+8VcSUh+iIo9U/SJ6YxkGXPUZ4LGlPsIzjHch+26KiStFzAEqhLG5KJgdounCji+92w==",
+      "tenantId": "c3ed29c4-075e-4b74-b002-9d2e64a94047",
+      "subscriptionId": "f4f352fe-e2c4-4dbf-b69c-304250eacbf3",
+      "resourceGroup": "ChopiBot",
+      "serviceName": "chopibotstorage",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "c25035c7-f54d-4a12-b85d-01672c8694c1",
+      "appPassword": "KFg95Hsnl2tnEmqrJ0+C0w==!bKSfZBFAnUfWLAMFioH8x1zNdxQFUMc/InZOqCYxMvM=",
+      "endpoint": "https://chopibot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "type": "ArlyLUIS-ES",
+      "name": "ArlyLUIS-ES",
+      "appId": "ca29e782-89bf-4886-9bca-4421cf395b51",
+      "version": "0.1",
+      "authoringKey": "821186ab9487489bb30795846f6e5961",
+      "subscriptionKey": "821186ab9487489bb30795846f6e5961",
+      "region": "westus",
+      "id": "5"
+    },
+    {
+      "type": "QnABot",
+      "name": "QnABot",
+      "kbId": "bbd2283a-aa19-4d1d-aafc-9b9346743369",
+      "subscriptionKey": "821186ab9487489bb30795846f6e5961",
+      "endpointKey": "aca4e073-2fb2-499f-97bb-fbe2385f29f9",
+      "hostname": "https://qnachopibot.azurewebsites.net/qnamaker",
+      "id": "6"
+    }
+  ]
+}
